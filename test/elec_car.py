@@ -5,7 +5,7 @@ class Car():
         self.model = model
         self.year = year
         self.odometer_reading = 0
-        super().__init__(make,model,year)
+        #super().__init__(make,model,year)
         self.battery_size = 70
 
     def get_descriptive_name(self):
